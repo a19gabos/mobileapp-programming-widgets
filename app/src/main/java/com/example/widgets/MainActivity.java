@@ -15,9 +15,11 @@ public class MainActivity extends AppCompatActivity {
 
         Button b = findViewById(R.id.myNewBtn);
 
-        @Override
-        public void onClick;(View view;) {
-            Log.d("==>","Historian om skeppet Bismarck, 1943.");
-        }
+        b.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.d("==>","We clicked on Tomten!");
+            }
+        });
     }
 }
