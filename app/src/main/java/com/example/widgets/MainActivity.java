@@ -3,6 +3,7 @@ package com.example.widgets;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
@@ -13,14 +14,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button b = findViewById(R.id.myNewBtn);
-    }
 
-    b.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            Log.d("==>","We clicked on Tomten!");
+            Log.d("==>","Historian om skeppet Bismarck, 1943.");
         }
-    });
-
-
+    }
 }
+
