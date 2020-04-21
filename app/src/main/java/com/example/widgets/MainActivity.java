@@ -19,5 +19,5 @@ public class MainActivity extends AppCompatActivity {
         public void onClick(View view) {
             Log.d("==>","Historian om skeppet Bismarck, 1943.");
         }
-    } ) ;
+    }
 }
