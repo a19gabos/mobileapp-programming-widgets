@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Log.d("==>","We clicked on Tomten!");
+                Log.d("==>","Historian om skeppet Bismarck, 1942.");
             }
         });
     }
