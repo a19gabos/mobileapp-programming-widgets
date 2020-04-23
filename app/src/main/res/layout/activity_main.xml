@@ -9,12 +9,6 @@
 
     <!-- Start typing the names of the widgets below this comment -->
 
-    <Button
-        android:id="@+id/myNewBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Historian om skeppet Bismarck" />
-
     <TextView
         android:id="@+id/BismarckFate"
         android:layout_width="wrap_content"
@@ -23,11 +17,16 @@
         android:textColor="#000"
         />
 
+    <Button
+        android:id="@+id/myNewBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Historian om skeppet Bismarck" />
+
     <ImageView
         android:id="@+id/BismarckBild"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/bismarckship"
-        />
+        android:layout_height="match_parent"
+        android:src="@drawable/bismarckship" />
 
 </LinearLayout>
