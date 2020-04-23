@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Log.d("==>","Historian om skeppet Bismarck, 1942.");
 
-                TextView textView = (TextView) findViewById(R.id.textView);
+                TextView textView = (TextView) findViewById(R.id.BismarckFate);
                 textView.setText("AbhiAndroid");
             }
         });
