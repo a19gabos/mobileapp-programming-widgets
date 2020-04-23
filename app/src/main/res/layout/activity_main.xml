@@ -13,7 +13,7 @@
         android:id="@+id/myNewBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Visa Historia" />
+        android:text="Historian om skeppet Bismarck" />
 
     <TextView
         android:id="@+id/BismarckFate"

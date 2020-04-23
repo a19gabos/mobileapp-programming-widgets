@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
                 Log.d("==>","Historian om skeppet Bismarck, 1942.");
 
                 TextView textView = (TextView) findViewById(R.id.BismarckFate);
-                textView.setText("AbhiAndroid");
+                textView.setText("Den sjönk.");
             }
         });
     }
