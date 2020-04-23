@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
                 textView.setText("Den sjönk.");
 
                 ImageView simpleImageView=(ImageView) findViewById(R.id.BismarckBild);
-                simpleImageView.setImageResource(R.drawable.BismarckShip);
+                simpleImageView.setImageResource(R.drawable.bismarckship);
             }
         });
     }
