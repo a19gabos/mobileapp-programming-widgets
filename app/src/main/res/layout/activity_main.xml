@@ -16,6 +16,7 @@
         android:text="Visa Historia" />
 
     <TextView
+        android:id="@+id/BismarckFate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Den sjönk"
