@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -24,6 +25,9 @@ public class MainActivity extends AppCompatActivity {
 
                 TextView textView = (TextView) findViewById(R.id.BismarckFate);
                 textView.setText("Den sjönk.");
+
+                ImageView simpleImageView=(ImageView) findViewById(R.id.BismarckBild);
+                simpleImageView.setImageResource(R.drawable.BismarckShip);
             }
         });
     }
