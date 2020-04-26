@@ -25,7 +25,6 @@
     <ImageView
         android:id="@+id/BismarckBild"
         android:layout_width="411dp"
-        android:layout_height="289dp"
-        android:src="@drawable/bismarckship" />
+        android:layout_height="289dp" />
 
 </LinearLayout>
